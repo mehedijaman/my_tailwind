@@ -1,0 +1,28 @@
+{
+  "name": "my_tailwind",
+  "version": "1.0.0",
+  "description": "Tailwind CSS components designed by ME",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehedijaman/my_tailwind.git"
+  },
+  "keywords": [
+    "TailwindCSS",
+    "Tailwind",
+    "Components",
+    "Tailwind"
+  ],
+  "author": "Mehedi Jaman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehedijaman/my_tailwind/issues"
+  },
+  "homepage": "https://github.com/mehedijaman/my_tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
